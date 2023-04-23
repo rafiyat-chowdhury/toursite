@@ -290,6 +290,10 @@ li:hover {
 /*=======================Media Query for mobile responsiveness==========================*/
 
 @media only screen and (max-width:850px) {
+    
+    body , html {
+    overflow-x: hidden;
+    }
 
     .navbar {
         padding: 0;
